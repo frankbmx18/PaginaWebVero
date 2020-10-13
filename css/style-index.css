@@ -1,0 +1,491 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../imagenes/1.jpg);
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.logo-idiomas{
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-right: 0;
+    bottom: 30px;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.logo{
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.espanol{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    text-decoration-line: underline;
+    
+}
+
+.enlaces a:hover { 
+    background: rgba(255, 255, 255, 0.26);
+    transition: all 0.4s linear;
+}
+.logo-idiomas a:hover { 
+    font-weight: 700;
+    transition: all 0.4s linear;
+}
+.ingles{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.contenido{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    bottom: 67%;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    
+   
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-bottom: -2px;
+    font-size: 40px;
+   
+}
+
+.herramientas{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    bottom: -281%;
+    color: rgb(255, 255, 255);
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.icono-programas{
+    width: 30px;
+}
+
+p{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.enlaces{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 113px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.portafolio{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 30px;
+    margin-left: 20px;
+    border: aqua 1px;
+    border-style: solid;
+}
+
+.contacto{
+    text-decoration: none;
+    color: rgb(255, 255, 255)5);
+    padding: 13px;
+    border-radius: 30px;
+    margin-right: 20px;
+    border: rgb(255, 255, 255) 1px;
+    border-style: solid;
+    
+
+}
+
+.pie{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+footer{
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-right: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: hsl(0, 4%, 9%);
+    padding: 5px;
+    position: fixed;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+@media only screen and (min-width: 320px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 26px;
+        color: aqua;
+    }
+
+    h2{
+      font-size: 20px;
+   
+    }
+    h3{
+        font-size: 15px;
+    }
+
+    p{
+      
+        font-size: 10px;
+        width: 85%;
+        line-height: 16px;
+    }
+
+    .logo{
+        width: 100px;
+        
+    }
+
+    .herramientas{
+        bottom: -365%;
+   }
+
+   .enlaces{
+    bottom: 50px;
+    }
+
+    .icono-programas{
+        width: 25px;
+    }
+}
+
+@media only screen and (min-width: 375px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 26px;
+        color: crimson;
+    }
+
+    h2{
+      font-size: 20px;
+   
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+      
+        font-size: 10px;
+        width: 85%;
+        line-height: 16px;
+    }
+
+    .logo{
+        width: 100px;
+        
+    }
+
+    .herramientas{
+        bottom: -365%;
+   }
+
+   .enlaces{
+    bottom: 50px;
+    }
+
+    .icono-programas{
+        width: 25px;
+    }
+}
+
+@media only screen and (min-width: 414px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 26px;
+        color: cornflowerblue;
+    }
+
+    h2{
+      font-size: 20px;
+   
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+      
+        font-size: 10px;
+        width: 85%;
+        line-height: 16px;
+    }
+
+    .logo{
+        width: 110px;
+        
+    }
+
+    .herramientas{
+        bottom: -365%;
+   }
+
+   .enlaces{
+    bottom: 50px;
+    }
+
+    .icono-programas{
+        width: 25px;
+    }
+}
+
+@media only screen and (min-height: 812px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 26px;
+        color: coral;
+    }
+
+    h2{
+      font-size: 19px;
+   
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+      
+        font-size: 14px;
+        width: 85%;
+        line-height: 20px;
+    }
+
+    .logo{
+        width: 110px;
+        
+    }
+
+    .herramientas{
+        bottom: -500%;
+   }
+
+   .enlaces{
+    bottom: 120px;
+    }
+
+    .icono-programas{
+        width: 25px;
+    }
+}
+@media only screen and (min-height: 1024px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 50px;
+        color: rgb(90, 52, 177);
+    }
+
+    h2{
+        font-size: 41px;
+   
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+      
+        font-size: 17px;
+        width: 85%;
+        line-height: 30px;
+    }
+
+    .logo{
+        width: 130px;
+        
+    }
+
+    .herramientas{
+        bottom: -365%;
+   }
+
+   .enlaces{
+    bottom: 210px;
+    font-size: 20;
+    }
+
+    .icono-programas{
+        width: 30px;
+    }
+}
+
+@media only screen and (min-height: 1366px){
+    .contenido{
+        position: fixed;
+    }
+   
+    h1{
+        font-size: 56px;
+        color: rgb(255, 217, 0);
+    }
+
+    h2{
+        font-size: 41px;
+   
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+      
+        font-size: 17px;
+        width: 85%;
+        line-height: 30px;
+    }
+
+    .logo{
+        width: 130px;
+        
+    }
+
+    .herramientas{
+        bottom: -365%;
+   }
+
+   .enlaces{
+    bottom: 210px;
+    font-size: 20;
+    }
+
+    .icono-programas{
+        width: 30px;
+    }
+}
+
+@media only screen and (min-width: 1367px){
+ 
+    h1{
+        font-size: 46px;
+        color: rgb(35, 119, 14);
+    }
+    h2{
+        font-size: 31px;
+      }
+      p{
+      
+        font-size: 15px;
+        width: 85%;
+        line-height: 26px;
+    }
+    .herramientas{
+        bottom: -365%;
+   }
+
+    .logo{
+        width: 130px;
+        
+    }
+
+    .enlaces{
+        bottom: 160px;
+        }
+    footer{
+            padding: 5px;
+            color: black;
+            font-size: 13px;    
+        }
+
+    h3{
+            font-weight: 400;
+            line-height: 29px;
+            font-size: 20px;
+        }
+        
+        .icono-programas{
+            width: 30px;
+        }
+}
+
+
+
+

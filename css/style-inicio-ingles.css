@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../imagenes/1.jpg);
+    height: 100vh;
+    width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+
+
+.logo-idiomas{
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-right: 0;
+    bottom: 30px;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    
+}
+.logo{
+    width: 10%;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
+.espanol{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+
+    
+}
+
+.enlaces a:hover { 
+    background: rgba(255, 255, 255, 0.26);
+    transition: all 0.4s linear;
+}
+.logo-idiomas a:hover { 
+    font-weight: 700;
+    transition: all 0.4s linear;
+}
+.ingles{
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    text-decoration-line: underline;
+}
+
+.contenido{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    bottom: 67%;
+    color: rgb(255, 255, 255);
+   
+
+}
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    
+   
+}
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-bottom: -2px;
+    font-size: 40px;
+   
+}
+
+.herramientas{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    bottom: -281%;
+    color: rgb(255, 255, 255);
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h3{
+    font-weight: 400;
+    line-height: 29px;
+}
+
+.icono-programas{
+    width: 30px;
+}
+
+p{
+    position: absolute;
+    margin: auto;
+    display: inline-block;
+    left: 0%;
+    right: 0%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    padding-top: 10px;
+}
+
+.enlaces{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 113px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.portafolio{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 30px;
+    margin-left: 20px;
+    border: rgb(255, 255, 255) 1px;
+    border-style: solid;
+}
+
+.contacto{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 13px;
+    border-radius: 30px;
+    margin-right: 20px;
+    border: rgb(255, 255, 255) 1px;
+    border-style: solid;
+
+}
+
+.pie{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+footer{
+    margin-top: auto;
+    margin-bottom: 0px;
+    margin-right: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: hsl(0, 4%, 9%);
+    padding: 5px;
+    position: fixed;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+@media only screen and (max-width: 320px){
+    h1{
+        font-size: 26px;
+    }
+
+    h2{
+      font-size: 20px;
+   
+    }
+    p{
+      
+        font-size: 10px;
+        width: 85%;
+        line-height: 16px;
+    }
+
+    .logo{
+        width: 35%;
+        
+    }
+
+    .herramientas{
+        bottom: -381%;
+   }
+
+   .enlaces{
+    bottom: 80px;
+    }
+
+    .icono-programas{
+        width: 25px;
+    }
+}
+
+
+
+
